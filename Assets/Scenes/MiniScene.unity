@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 51061209}
   - component: {fileID: 51061208}
+  - component: {fileID: 51061210}
   - component: {fileID: 51061207}
   m_Layer: 0
   m_Name: Test (2)
@@ -130,23 +131,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &51061207
-MonoBehaviour:
+--- !u!61 &51061207
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 51061206}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a035c46e37b5bf844a191cb8baef176c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorBank:
-  - {r: 0.077782035, g: 1, b: 0, a: 1}
-  - {r: 0, g: 0.20701408, b: 1, a: 1}
-  - {r: 1, g: 0, b: 0.8746815, a: 1}
-  - {r: 1, g: 0.11541784, b: 0, a: 1}
-  - {r: 1, g: 0.99510133, b: 0, a: 1}
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!212 &51061208
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -204,8 +213,19 @@ Transform:
   m_LocalScale: {x: 4, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &51061210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 51061206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75fb4e792428d3849804dbeabd354f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &413699060
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,9 +389,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1164673924}
-  - {fileID: 2133651215}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -462,7 +481,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1405822290}
   - component: {fileID: 1405822289}
-  - component: {fileID: 1405822291}
   m_Layer: 0
   m_Name: Test (1)
   m_TagString: Untagged
@@ -527,25 +545,8 @@ Transform:
   m_LocalScale: {x: 4.887, y: 8.616682, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1405822291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1405822288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a035c46e37b5bf844a191cb8baef176c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorBank:
-  - {r: 0.077782035, g: 1, b: 0, a: 1}
-  - {r: 0, g: 0.20701408, b: 1, a: 1}
-  - {r: 1, g: 0, b: 0.8746815, a: 1}
-  - {r: 1, g: 0.11541784, b: 0, a: 1}
-  - {r: 1, g: 0.99510133, b: 0, a: 1}
 --- !u!1 &1808120932
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,7 +618,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2076648120}
   - component: {fileID: 2076648119}
-  - component: {fileID: 2076648121}
   m_Layer: 0
   m_Name: Test
   m_TagString: Untagged
@@ -682,99 +682,5 @@ Transform:
   m_LocalScale: {x: 6.041656, y: 9.982435, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2076648121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2076648118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a035c46e37b5bf844a191cb8baef176c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorBank:
-  - {r: 0.6132076, g: 0.4437825, b: 0.42519584, a: 1}
-  - {r: 0.4245283, g: 0.41501966, b: 0.2783464, a: 1}
-  - {r: 0.32745117, g: 0.5, b: 0.3183962, a: 1}
-  - {r: 0.367791, g: 0.4213118, b: 0.5377358, a: 1}
-  - {r: 0.5471698, g: 0.3226237, b: 0.5441338, a: 1}
---- !u!1 &2133651214
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2133651215}
-  - component: {fileID: 2133651217}
-  - component: {fileID: 2133651216}
-  m_Layer: 5
-  m_Name: Add currency
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2133651215
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2133651214}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.03, y: 0.03, z: 1}
-  m_Children: []
-  m_Father: {fileID: 968466981}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -239.93, y: -402.63}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2133651216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2133651214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Add Currency
-
-'
---- !u!222 &2133651217
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2133651214}
-  m_CullTransparentMesh: 0
