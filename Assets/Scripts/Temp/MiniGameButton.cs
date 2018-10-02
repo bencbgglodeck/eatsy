@@ -7,6 +7,6 @@ public class MiniGameButton : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("TestGame");
+        SceneManager.LoadScene("MiniBlocks");
     }
 }

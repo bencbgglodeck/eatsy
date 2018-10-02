@@ -8,7 +8,7 @@ public class CGenButton : MonoBehaviour {
 
     public void ClickTheButton()
     {
-        CurrencyTest.CurrencyCount += 1;
+        MasterScript.currencyCount++;
     }
 
 

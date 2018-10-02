@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CurrencyTest : MonoBehaviour {
+public class CurrencyDisplayer : MonoBehaviour {
 
     public GameObject CurrencyDisplay;
     private int internalCurrency;
 	
-	void Update ()
-    {
+	void Update () {
+
         internalCurrency = MasterScript.currencyCount;
         CurrencyDisplay.GetComponent<Text>().text = "Currency: " + internalCurrency;
 	}
