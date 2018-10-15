@@ -7,7 +7,7 @@ public class MiniBlocksScript : MonoBehaviour
 {
     public Transform hole;
     private float dist = 1000000;
-    Vector3 originalSize;
+    //Vector3 originalSize;
     Vector3 temp;
     private bool hold = false;
     private int maxSize = 100;
@@ -15,7 +15,7 @@ public class MiniBlocksScript : MonoBehaviour
 
     private void Start()
     {
-        originalSize = transform.localScale;
+        //originalSize = transform.localScale;
     }
 
     private void OnMouseDrag()

@@ -6,4 +6,5 @@ public class MasterScript : MonoBehaviour
 {
     public static int currencyCount;
     public static int blockCounter = 0;
+    public static int spiceCounter = 0;
 }
