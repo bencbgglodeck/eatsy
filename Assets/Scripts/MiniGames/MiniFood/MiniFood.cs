@@ -13,7 +13,7 @@ public class MiniFood : MonoBehaviour
         
 	void Start ()
     {
-        neededSpice = Random.Range(0, 3);
+        neededSpice = Random.Range(0, 4);
     }
 	
 	void Update ()
@@ -71,7 +71,7 @@ public class MiniFood : MonoBehaviour
             spiceCounter[neededSpice]++;
             while (neededSpice == usedSpice)
             {
-                neededSpice = Random.Range(0, 3);
+                neededSpice = Random.Range(0, 4);
             }
             MasterScript.spiceCounter++;
         }

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniCookie.unity
     guid: 73acd09ac2f9ddd42b1a7b9702217d72
+  - enabled: 1
+    path: Assets/Scenes/MiniFood.unity
+    guid: 167c613f5f1c40047b473bc682635bb9
   m_configObjects: {}
