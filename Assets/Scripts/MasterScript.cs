@@ -5,5 +5,6 @@ using UnityEngine;
 public class MasterScript : MonoBehaviour
 {
     public static int currencyCount;
+    public static int energyCount;
     public static int blockCounter = 0;
 }

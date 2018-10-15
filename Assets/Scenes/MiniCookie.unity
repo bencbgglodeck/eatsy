@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerDisplay: {fileID: 304996729}
-  timeLeft: 60
+  timeLeft: 15
 --- !u!1 &352673243
 GameObject:
   m_ObjectHideFlags: 0
