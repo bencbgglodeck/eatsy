@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class mini_Cookie_Button : MonoBehaviour {
 
@@ -12,7 +13,7 @@ public class mini_Cookie_Button : MonoBehaviour {
     {
         if (time.ready == false)
         {
-            Debug.Log("REEEEEEEE");
+            SceneManager.LoadScene("MainScene");
 
         }
         else if (time.ready == true)

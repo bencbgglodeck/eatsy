@@ -8,4 +8,5 @@ public class MasterScript : MonoBehaviour
     public static int energyCount;
     public static int blockCounter = 0;
     public static int spiceCounter = 0;
+    public static int catLives = 3;
 }

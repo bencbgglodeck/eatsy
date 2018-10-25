@@ -18,6 +18,7 @@ public class mini_Cookie_Progress : MonoBehaviour {
 
         if (timeLeft < 0.0f)
         {
+            timeLeft = 0;
             MasterScript.currencyCount += 25;
             SceneManager.LoadScene("MainScene");
         }
