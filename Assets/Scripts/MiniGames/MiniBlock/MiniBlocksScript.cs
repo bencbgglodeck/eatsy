@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MiniBlocksScript : MonoBehaviour
 {
     public Transform hole;
+    public GameObject boxPart;
     private float dist = 1000000;
     //Vector3 originalSize;
     Vector3 temp;
@@ -15,6 +16,7 @@ public class MiniBlocksScript : MonoBehaviour
 
     private void Start()
     {
+        boxPart.SetActive(false);
         //originalSize = transform.localScale;
     }
 
@@ -54,13 +56,12 @@ public class MiniBlocksScript : MonoBehaviour
 
         if (dist < 1 && currentSize == 0)
         {
-            SpriteRenderer so = hole.GetComponent<SpriteRenderer>();
-            so.color = new Color(1, 0.92f, 0.016f, 1);
+            boxPart.SetActive(true);
 
             Destroy(gameObject);
             MasterScript.blockCounter++;
         }
-        if (MasterScript.blockCounter >= 3)
+        if (MasterScript.blockCounter >= 4)
         {
             MasterScript.blockCounter = 0;
             MasterScript.currencyCount += 25;
