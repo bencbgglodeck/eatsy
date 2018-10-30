@@ -6,21 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 43ca838c51857c64e806438692c2843c
-  - enabled: 1
     path: Assets/Scenes/MiniScene.unity
     guid: 13dd04672631a6841847f9eea0d75d0f
   - enabled: 1
     path: Assets/Scenes/MiniBlocks.unity
     guid: 2ed8a549c200f334e8a14a9a3216e4e2
   - enabled: 1
-    path: Assets/Scenes/MiniCookie.unity
-    guid: 73acd09ac2f9ddd42b1a7b9702217d72
-  - enabled: 1
     path: Assets/Scenes/MiniFood.unity
     guid: 167c613f5f1c40047b473bc682635bb9
   - enabled: 1
     path: Assets/Scenes/MiniCat.unity
     guid: 32c62ad2f54ad3249aa6ee876b304fab
+  - enabled: 1
+    path: Assets/Scenes/MiniCookie.unity
+    guid: 73acd09ac2f9ddd42b1a7b9702217d72
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 1d95a8d438cfb7f4fb73e0fa1f04eea7
   m_configObjects: {}

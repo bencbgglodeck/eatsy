@@ -14,19 +14,17 @@ public class mini_Cookie_Progress : MonoBehaviour {
 	void Update ()
     {
 
-        timerDisplay.GetComponent<Text>().text = timeLeft.ToString();
-
-        if (timeLeft < 0.0f)
+        if (timeLeft < 0.01f)
         {
-            timeLeft = 0;
             MasterScript.currencyCount += 25;
             SceneManager.LoadScene("MainScene");
         }
-	}
+
+        timerDisplay.GetComponent<Text>().text = timeLeft.ToString("#.00");
+    }
 
     public void Countdown()
     {
-
         timeLeft -= Time.deltaTime;
 
     }

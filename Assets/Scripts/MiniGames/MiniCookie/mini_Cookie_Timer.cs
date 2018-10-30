@@ -29,7 +29,6 @@ public class mini_Cookie_Timer : MonoBehaviour {
     void SetInactive()
     {
         ready = false;
-        spriteR.color = Color.red;
         colorTimer = Random.Range(3.0f, 10.0f);
         StartCoroutine(Cooldown(colorTimer));
     }
@@ -49,9 +48,13 @@ public class mini_Cookie_Timer : MonoBehaviour {
         yield return new WaitForSeconds(timer);
 
         Debug.Log("time frame over");
+        spriteR.color = Color.red;
+
+        yield return new WaitForSeconds(0.3f);
 
         SetInactive();
         yield return null;
     }
+
 
 }
