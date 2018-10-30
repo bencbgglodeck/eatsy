@@ -12,10 +12,13 @@ public class CameraFollower : MonoBehaviour {
     {
         offset = transform.position - player.transform.position;
 	}
-	
-	// Update is called once after every update
-	void LateUpdate ()
+
+    // Update is called once after every update
+    void LateUpdate()
     {
-        transform.position = player.transform.position + offset;
+        if (player != null)
+        {
+            transform.position = player.transform.position + offset;
+        }
     }
 }

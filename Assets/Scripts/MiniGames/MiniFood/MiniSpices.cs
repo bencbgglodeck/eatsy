@@ -11,7 +11,7 @@ public class MiniSpices : MonoBehaviour
     Vector3 originalPos;
     Vector3 temp;
     private bool hold = false;
-    private int maxSize = 100;
+    private int maxSize = 50;
     private int currentSize = 0;
     private bool currentlyUsed = false;
     public int spiceId;
@@ -41,8 +41,8 @@ public class MiniSpices : MonoBehaviour
         {
             temp = transform.localScale;
 
-            temp.x += Time.deltaTime;
-            temp.y += Time.deltaTime;
+            temp.x += Time.deltaTime*2;
+            temp.y += Time.deltaTime*2;
             transform.localScale = temp;
             currentSize++;
         }
