@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniCookie.unity
     guid: 73acd09ac2f9ddd42b1a7b9702217d72
+  - enabled: 1
+    path: Assets/Scenes/ShopScene.unity
+    guid: a937f57af8904514881daf121ed56002
+  - enabled: 1
+    path: Assets/Scenes/SettingScene.unity
+    guid: daa26cf45af80044594a423d5b81d2de
   m_configObjects: {}
