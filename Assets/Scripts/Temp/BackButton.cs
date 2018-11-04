@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class BackButton : MonoBehaviour
 {
 
-    private void OnMouseDown()
+    public void Back()
     {
-       SceneManager.LoadScene(gameObject.name);
+       SceneManager.LoadScene("MainScene");
     }
 }
