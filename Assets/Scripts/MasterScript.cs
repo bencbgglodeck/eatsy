@@ -9,4 +9,5 @@ public class MasterScript : MonoBehaviour
     public static int blockCounter = 0;
     public static int spiceCounter = 0;
     public static int catLives = 3;
+    public static int[] shopItemList = new int[4]; 
 }

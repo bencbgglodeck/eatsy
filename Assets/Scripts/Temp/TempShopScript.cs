@@ -4,12 +4,55 @@ using UnityEngine;
 
 public class TempShopScript : MonoBehaviour
 {
-    public void ClickTheButton()
+    public void PurchaseItem1()
     {
-        MasterScript.currencyCount -= 5;
-        if (MasterScript.currencyCount < 0)
+        if (MasterScript.shopItemList[0] == 1)
         {
-            MasterScript.currencyCount = 0;
+            Debug.Log("Already Purchased");
+        }
+        else if (MasterScript.currencyCount >= 5 && MasterScript.shopItemList[0] == 0)
+        {
+            MasterScript.shopItemList[0] = 1;
+            MasterScript.currencyCount -= 5;
+        }
+    }
+
+    public void PurchaseItem2()
+    {
+        if (MasterScript.shopItemList[1] == 1)
+        {
+            Debug.Log("Already Purchased");
+        }
+        else if (MasterScript.currencyCount >= 5 && MasterScript.shopItemList[1] == 0)
+        {
+            MasterScript.shopItemList[1] = 1;
+            MasterScript.currencyCount -= 5;
+        }
+    }
+
+    public void PurchaseItem3()
+    {
+        if (MasterScript.shopItemList[2] == 1)
+        {
+            Debug.Log("Already Purchased");
+        }
+        else if (MasterScript.currencyCount >= 5 && MasterScript.shopItemList[2] == 0)
+        {
+            MasterScript.shopItemList[2] = 1;
+            MasterScript.currencyCount -= 5;
+        }
+    }
+
+    public void PurchaseItem4()
+    {
+        if (MasterScript.shopItemList[3] == 1)
+        {
+            Debug.Log("Already Purchased");
+        }
+        else if (MasterScript.currencyCount >= 5 && MasterScript.shopItemList[3] == 0)
+        {
+            MasterScript.shopItemList[3] = 1;
+            MasterScript.currencyCount -= 5;
         }
     }
 }

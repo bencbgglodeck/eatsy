@@ -51,3 +51,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 794b4cfb9fb6b5c47a4fe025816d0c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shopItemList:
+  - Hair1
+  - Hair2
+  - Hair3
+  - Hair4
