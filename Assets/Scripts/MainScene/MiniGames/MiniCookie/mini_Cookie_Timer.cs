@@ -8,7 +8,8 @@ public class mini_Cookie_Timer : MonoBehaviour {
     public bool ready;
 
     public GameObject colorBar;
-    public SpriteRenderer spriteR;
+    private SpriteRenderer spriteR;
+    public Sprite[] spriteList;
 
     void Start () {
 
@@ -21,7 +22,7 @@ public class mini_Cookie_Timer : MonoBehaviour {
     void SetActive()
     {
         ready = true;
-        spriteR.color = Color.green;
+        spriteR.sprite = spriteList[1];
         colorTimer = Random.Range(3.0f, 10.0f);
         StartCoroutine(Duration(colorTimer));
     }
@@ -48,7 +49,7 @@ public class mini_Cookie_Timer : MonoBehaviour {
         yield return new WaitForSeconds(timer);
 
         Debug.Log("time frame over");
-        spriteR.color = Color.red;
+        spriteR.sprite = spriteList[0];
 
         yield return new WaitForSeconds(0.3f);
 
