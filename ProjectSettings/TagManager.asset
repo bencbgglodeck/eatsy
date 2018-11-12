@@ -9,6 +9,7 @@ TagManager:
   - InterfaceBarUp
   - InterfaceBarDown
   - Master
+  - Actor
   layers:
   - Default
   - TransparentFX

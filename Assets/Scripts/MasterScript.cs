@@ -22,4 +22,5 @@ public class MasterScript : MonoBehaviour
         }
         DontDestroyOnLoad(this.gameObject);
     }
+
 }
