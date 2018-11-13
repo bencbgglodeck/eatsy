@@ -17,7 +17,7 @@ public class mini_Cookie_Progress : MonoBehaviour {
         if (timeLeft < 0.01f)
         {
             MasterScript.currencyCount += 25;
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("VictoryScene");
         }
 
         timerDisplay.GetComponent<Text>().text = timeLeft.ToString("#.00");

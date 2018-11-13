@@ -6,30 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TitleScene.unity
+    path: Assets/Resources/Scenes/TitleScene.unity
     guid: a7b6722e93b9fb54ba3e69d9fa4da95d
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
+    path: Assets/Resources/Scenes/MainScene.unity
     guid: 1d95a8d438cfb7f4fb73e0fa1f04eea7
   - enabled: 1
-    path: Assets/Scenes/MiniScene.unity
+    path: Assets/Resources/Scenes/MiniScene.unity
     guid: 13dd04672631a6841847f9eea0d75d0f
   - enabled: 1
-    path: Assets/Scenes/MiniBlocks.unity
+    path: Assets/Resources/Scenes/MiniBlocks.unity
     guid: 2ed8a549c200f334e8a14a9a3216e4e2
   - enabled: 1
-    path: Assets/Scenes/MiniFood.unity
+    path: Assets/Resources/Scenes/MiniFood.unity
     guid: 167c613f5f1c40047b473bc682635bb9
   - enabled: 1
-    path: Assets/Scenes/MiniCat.unity
+    path: Assets/Resources/Scenes/MiniCat.unity
     guid: 32c62ad2f54ad3249aa6ee876b304fab
   - enabled: 1
-    path: Assets/Scenes/MiniCookie.unity
+    path: Assets/Resources/Scenes/MiniCookie.unity
     guid: 73acd09ac2f9ddd42b1a7b9702217d72
   - enabled: 1
-    path: Assets/Scenes/ShopScene.unity
+    path: Assets/Resources/Scenes/ShopScene.unity
     guid: a937f57af8904514881daf121ed56002
   - enabled: 1
-    path: Assets/Scenes/SettingScene.unity
+    path: Assets/Resources/Scenes/SettingScene.unity
     guid: daa26cf45af80044594a423d5b81d2de
+  - enabled: 1
+    path: Assets/Resources/Scenes/LoseScene.unity
+    guid: 7bdcdc54ceefc2b4a8ff03fcd1fa2534
+  - enabled: 1
+    path: Assets/Resources/Scenes/VictoryScene.unity
+    guid: e6625b399c0885d438ec25636099890c
   m_configObjects: {}

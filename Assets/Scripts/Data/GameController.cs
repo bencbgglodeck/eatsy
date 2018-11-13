@@ -38,25 +38,13 @@ public class GameController : MonoBehaviour {
         return actor;
     }
 
-    void Save()
+    public void Save()
     {
         SaveData.Save(dataPath, SaveData.actorContainer);
     }
 
-    void Load()
+    public void Load()
     {
         SaveData.Load(dataPath);
     }
-
-    void OnEnable()
-    {
-        saveButton.onClick.AddListener(Save);
-        loadButton.onClick.AddListener(Load);
-    }
-    void OnDisable()
-    {
-        saveButton.onClick.RemoveListener(Save);
-        loadButton.onClick.RemoveListener(Load);
-    }
-
 }

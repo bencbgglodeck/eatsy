@@ -13,7 +13,7 @@ public class mini_Cookie_Timer : MonoBehaviour {
 
     void Start () {
 
-        colorTimer =  Random.Range(3.0f, 10.0f);
+        colorTimer =  Random.Range(1.0f, 4f);
         spriteR = gameObject.GetComponent<SpriteRenderer>();
 
         StartCoroutine(Cooldown(colorTimer));
@@ -23,14 +23,14 @@ public class mini_Cookie_Timer : MonoBehaviour {
     {
         ready = true;
         spriteR.sprite = spriteList[1];
-        colorTimer = Random.Range(3.0f, 10.0f);
+        colorTimer = Random.Range(1f, 4f);
         StartCoroutine(Duration(colorTimer));
     }
 
     void SetInactive()
     {
         ready = false;
-        colorTimer = Random.Range(3.0f, 10.0f);
+        colorTimer = Random.Range(1f, 4f);
         StartCoroutine(Cooldown(colorTimer));
     }
 

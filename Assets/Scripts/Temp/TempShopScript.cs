@@ -8,6 +8,7 @@ public class TempShopScript : MonoBehaviour
     {
         if (MasterScript.shopItemList[0] == 1)
         {
+            MasterScript.playerColor = Color.red;
             Debug.Log("Already Purchased");
         }
         else if (MasterScript.currencyCount >= 5 && MasterScript.shopItemList[0] == 0)
@@ -22,6 +23,7 @@ public class TempShopScript : MonoBehaviour
     {
         if (MasterScript.shopItemList[1] == 1)
         {
+            MasterScript.playerColor = Color.green;
             Debug.Log("Already Purchased");
         }
         else if (MasterScript.currencyCount >= 5 && MasterScript.shopItemList[1] == 0)
@@ -36,6 +38,7 @@ public class TempShopScript : MonoBehaviour
     {
         if (MasterScript.shopItemList[2] == 1)
         {
+            MasterScript.shopItemList[2] = 1;
             Debug.Log("Already Purchased");
         }
         else if (MasterScript.currencyCount >= 5 && MasterScript.shopItemList[2] == 0)
@@ -50,6 +53,7 @@ public class TempShopScript : MonoBehaviour
     {
         if (MasterScript.shopItemList[3] == 1)
         {
+            MasterScript.shopItemList[3] = 1;
             Debug.Log("Already Purchased");
         }
         else if (MasterScript.currencyCount >= 5 && MasterScript.shopItemList[3] == 0)

@@ -80,7 +80,7 @@ public class MiniFood : MonoBehaviour
         {
             MasterScript.spiceCounter = 0;
             MasterScript.currencyCount += 25;
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("VictoryScene");
         }
     }
 }

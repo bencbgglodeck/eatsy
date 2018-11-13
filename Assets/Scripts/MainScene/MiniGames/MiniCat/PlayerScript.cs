@@ -59,14 +59,14 @@ public class PlayerScript : MonoBehaviour
             else if (MasterScript.catLives <= 0)
             {
                 MasterScript.catLives = 3;
-                SceneManager.LoadScene("MainScene");
+                SceneManager.LoadScene("LoseScene");
             }
         }
         if (collision.gameObject.tag == "CatTag")
         {
             MasterScript.currencyCount = 15 * MasterScript.catLives;
             MasterScript.catLives = 3;
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("VictoryScene");
         }
     }
 }

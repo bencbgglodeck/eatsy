@@ -11,7 +11,7 @@ public class MiniBlocksScript : MonoBehaviour
     //Vector3 originalSize;
     Vector3 temp;
     private bool hold = false;
-    private int maxSize = 50;
+    private int maxSize = 25;
     private int currentSize = 0;
 
     private void Start()
@@ -38,8 +38,8 @@ public class MiniBlocksScript : MonoBehaviour
         {
             temp = transform.localScale;
     
-            temp.x += Time.deltaTime*2;
-            temp.y += Time.deltaTime*2;
+            temp.x += Time.deltaTime*4;
+            temp.y += Time.deltaTime*4;
             transform.localScale = temp;
             currentSize++;
         }
@@ -48,8 +48,8 @@ public class MiniBlocksScript : MonoBehaviour
         {
             temp = transform.localScale;
 
-            temp.x -= Time.deltaTime*2;
-            temp.y -= Time.deltaTime*2;
+            temp.x -= Time.deltaTime*4;
+            temp.y -= Time.deltaTime*4;
             transform.localScale = temp;
             currentSize--;
         }
@@ -65,7 +65,7 @@ public class MiniBlocksScript : MonoBehaviour
         {
             MasterScript.blockCounter = 0;
             MasterScript.currencyCount += 25;
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("VictoryScene");
         }
     }
     

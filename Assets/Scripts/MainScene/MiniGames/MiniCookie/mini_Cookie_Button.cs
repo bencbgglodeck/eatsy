@@ -13,7 +13,7 @@ public class mini_Cookie_Button : MonoBehaviour {
     {
         if (time.ready == false)
         {
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("LoseScene");
 
         }
         else if (time.ready == true)
