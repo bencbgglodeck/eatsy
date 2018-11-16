@@ -7,6 +7,8 @@ public class mini_Cookie_Button : MonoBehaviour {
 
     public mini_Cookie_Progress prog;
     public mini_Cookie_Timer time;
+    public GameObject cookieEffect;
+    public bool effectReady = true;
 
 
     public void OnMouseDrag()
@@ -18,8 +20,18 @@ public class mini_Cookie_Button : MonoBehaviour {
         }
         else if (time.ready == true)
         {
+            Debug.Log("memes");
+            if (effectReady == true)
+            {
+                Instantiate(cookieEffect, Camera.main.ScreenToWorldPoint(Input.mousePosition), Quaternion.identity);
+                effectReady = false;
+            }
             prog.Countdown();
         }
     }
-}
 
+    public void OnMouseUpAsButton()
+    {
+        effectReady = true;
+    }
+}

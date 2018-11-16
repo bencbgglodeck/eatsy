@@ -380,6 +380,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prog: {fileID: 275820827}
   time: {fileID: 699844550}
+  cookieEffect: {fileID: 1262777310224752, guid: 560fe7dfccf75214dbde9f5b7a802643,
+    type: 2}
+  effectReady: 1
 --- !u!212 &569791488
 SpriteRenderer:
   m_ObjectHideFlags: 0
