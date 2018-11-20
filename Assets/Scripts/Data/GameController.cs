@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour {
     void Awake()
     {
         dataPath = System.IO.Path.Combine(Application.persistentDataPath, "actors.json");
+        StartCoroutine(AutoSave());
     }
 
     public static Actor CreateActor(string path, Vector3 position, Quaternion rotation)
@@ -46,5 +47,20 @@ public class GameController : MonoBehaviour {
     public void Load()
     {
         SaveData.Load(dataPath);
+    }
+
+    public void Reset()
+    {
+        MasterScript.currencyCount = 0;
+        MasterScript.energyCount = 0;
+        SaveData.Save(dataPath, SaveData.actorContainer);
+    }
+
+    IEnumerator AutoSave()
+    {
+        yield return new WaitForSeconds(5);
+        SaveData.Save(dataPath, SaveData.actorContainer);
+
+        StartCoroutine(AutoSave());
     }
 }

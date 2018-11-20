@@ -129,10 +129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa30b678d9c003349ad91794c4db60cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameDB:
-    CurrencyList:
-    - currencyCount: 10
-      energyCount: 10
 --- !u!1 &1013936013
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,3 +335,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77c8ce5e1d951041a3824e7f5cc1ba1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataPrefab: {fileID: 1456549399137776, guid: 9c8a7ae80dc815d4bb021ae6f6b722ab, type: 2}
