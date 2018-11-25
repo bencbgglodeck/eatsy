@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: a5f478bedd6747147bd872f4e109520b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CookiePieces_110
+    21300002: CookiePieces_1
+    21300004: CookiePieces_2
+    21300006: CookiePieces_3
+    21300008: CookiePieces_4
+    21300010: CookiePieces_5
+    21300012: CookiePieces_6
+    21300014: CookiePieces_7
+    21300016: CookiePieces_8
+    21300018: CookiePieces_15
+    21300020: CookiePieces_16
+    21300022: CookiePieces_29
+    21300024: CookiePieces_18
+    21300026: CookiePieces_19
+    21300028: CookiePieces_20
+    21300030: CookiePieces_21
+    21300032: CookiePieces_22
+    21300034: CookiePieces_23
+    21300036: CookiePieces_24
+    21300038: CookiePieces_25
+    21300040: CookiePieces_26
+    21300042: CookiePieces_27
+    21300044: CookiePieces_28
+    21300046: CookiePieces_29
+    21300048: CookiePieces_31
+    21300050: CookiePieces_31
+    21300052: CookiePieces_32
+    21300054: CookiePieces_9
+    21300056: CookiePieces_10
+    21300058: CookiePieces_11
+    21300060: CookiePieces_12
+    21300062: CookiePieces_13
+    21300064: CookiePieces_14
+    21300066: CookiePieces_30
+    21300068: CookiePieces_34
+    21300070: CookiePieces_35
+    21300072: CookiePieces_36
+    21300074: CookiePieces_37
+    21300076: CookiePieces_38
+    21300078: CookiePieces_33
+    21300080: CookiePieces_32
+    21300082: CookiePieces_41
+    21300084: CookiePieces_42
+    21300086: CookiePieces_43
+    21300088: CookiePieces_44
+    21300090: CookiePieces_45
+    21300092: CookiePieces_46
+    21300094: CookiePieces_47
+    21300096: CookiePieces_48
+    21300098: CookiePieces_49
+    21300100: CookiePieces_50
+    21300102: CookiePieces_51
+    21300104: CookiePieces_52
+    21300106: CookiePieces_53
+    21300108: CookiePieces_54
+    21300110: CookiePieces_55
+    21300112: CookiePieces_56
+    21300114: CookiePieces_57
+    21300116: CookiePieces_58
+    21300118: CookiePieces_59
+    21300120: CookiePieces_60
+    21300122: CookiePieces_61
+    21300124: CookiePieces_62
+    21300126: CookiePieces_63
+    21300128: CookiePieces_64
+    21300130: CookiePieces_65
+    21300132: CookiePieces_66
+    21300134: CookiePieces_67
+    21300136: CookiePieces_68
+    21300138: CookiePieces_69
+    21300140: CookiePieces_70
+    21300142: CookiePieces_71
+    21300144: CookiePieces_72
+    21300146: CookiePieces_73
+    21300148: CookiePieces_74
+    21300150: CookiePieces_75
+    21300152: CookiePieces_76
+    21300154: CookiePieces_77
+    21300156: CookiePieces_78
+    21300158: CookiePieces_79
+    21300160: CookiePieces_80
+    21300162: CookiePieces_81
+    21300164: CookiePieces_82
+    21300166: CookiePieces_83
+    21300168: CookiePieces_84
+    21300170: CookiePieces_85
+    21300172: CookiePieces_86
+    21300174: CookiePieces_87
+    21300176: CookiePieces_88
+    21300178: CookiePieces_89
+    21300180: CookiePieces_90
+    21300182: CookiePieces_91
+    21300184: CookiePieces_92
+    21300186: CookiePieces_93
+    21300188: CookiePieces_94
+    21300190: CookiePieces_95
+    21300192: CookiePieces_96
+    21300194: CookiePieces_97
+    21300196: CookiePieces_98
+    21300198: CookiePieces_99
+    21300200: CookiePieces_100
+    21300202: CookiePieces_101
+    21300204: CookiePieces_102
+    21300206: CookiePieces_103
+    21300208: CookiePieces_104
+    21300210: CookiePieces_105
+    21300212: CookiePieces_106
+    21300214: CookiePieces_107
+    21300216: CookiePieces_108
+    21300218: CookiePieces_109
+    21300220: CookiePieces_110
+    21300222: CookiePieces_26
+    21300224: CookiePieces_25
+    21300226: CookiePieces_24
+    21300228: CookiePieces_114
+    21300230: CookiePieces_23
+    21300232: CookiePieces_116
+    21300234: CookiePieces_28
+    21300236: CookiePieces_118
+    21300238: CookiePieces_27
+    21300240: CookiePieces_120
+    21300242: CookiePieces_121
+    21300244: CookiePieces_122
+    21300246: CookiePieces_123
+    21300248: CookiePieces_124
+    21300250: CookiePieces_125
+    21300252: CookiePieces_126
+    21300254: CookiePieces_127
+    21300256: CookiePieces_128
+    21300258: CookiePieces_129
+    21300260: CookiePieces_130
+    21300262: CookiePieces_131
+    21300264: CookiePieces_132
+    21300266: CookiePieces_133
+    21300268: CookiePieces_134
+    21300270: CookiePieces_135
+    21300272: CookiePieces_136
+    21300274: CookiePieces_137
+    21300276: CookiePieces_138
+    21300278: CookiePieces_139
+    21300280: CookiePieces_140
+    21300282: CookiePieces_141
+    21300284: CookiePieces_142
+    21300286: CookiePieces_143
+    21300288: CookiePieces_144
+    21300290: CookiePieces_145
+    21300292: CookiePieces_146
+    21300294: CookiePieces_147
+    21300296: CookiePieces_148
+    21300298: CookiePieces_149
+    21300300: CookiePieces_150
+    21300302: CookiePieces_151
+    21300304: CookiePieces_152
+    21300306: CookiePieces_153
+    21300308: CookiePieces_154
+    21300310: CookiePieces_155
+    21300312: CookiePieces_156
+    21300314: CookiePieces_157
+    21300316: CookiePieces_158
+    21300318: CookiePieces_159
+    21300320: CookiePieces_160
+    21300322: CookiePieces_161
+    21300324: CookiePieces_162
+    21300326: CookiePieces_163
+    21300328: CookiePieces_164
+    21300330: CookiePieces_165
+    21300332: CookiePieces_166
+    21300334: CookiePieces_167
+    21300336: CookiePieces_168
+    21300338: CookiePieces_169
+    21300340: CookiePieces_170
+    21300342: CookiePieces_171
+    21300344: CookiePieces_172
+    21300346: CookiePieces_173
+    21300348: CookiePieces_174
+    21300350: CookiePieces_175
+    21300352: CookiePieces_176
+    21300354: CookiePieces_177
+    21300356: CookiePieces_178
+    21300358: CookiePieces_179
+    21300360: CookiePieces_180
+    21300362: CookiePieces_181
+    21300364: CookiePieces_182
+    21300366: CookiePieces_183
+    21300368: CookiePieces_22
+    21300370: CookiePieces_185
+    21300372: CookiePieces_21
+    21300374: CookiePieces_187
+    21300376: CookiePieces_20
+    21300378: CookiePieces_189
+    21300380: CookiePieces_19
+    21300382: CookiePieces_191
+    21300384: CookiePieces_18
+    21300386: CookiePieces_193
+    21300388: CookiePieces_17
+    21300390: CookiePieces_195
+    21300392: CookiePieces_196
+    21300394: CookiePieces_197
+    21300396: CookiePieces_198
+    21300398: CookiePieces_199
+    21300400: CookiePieces_200
+    21300402: CookiePieces_201
+    21300404: CookiePieces_202
+    21300406: CookiePieces_203
+    21300408: CookiePieces_204
+    21300410: CookiePieces_205
+    21300412: CookiePieces_206
+    21300414: CookiePieces_207
+    21300416: CookiePieces_208
+    21300418: CookiePieces_209
+    21300420: CookiePieces_210
+    21300422: CookiePieces_211
+    21300424: CookiePieces_212
+    21300426: CookiePieces_213
+    21300428: CookiePieces_214
+    21300430: CookiePieces_215
+    21300432: CookiePieces_216
+    21300434: CookiePieces_217
+    21300436: CookiePieces_218
+    21300438: CookiePieces_219
+    21300440: CookiePieces_220
+    21300442: CookiePieces_221
+    21300444: CookiePieces_222
+    21300446: CookiePieces_223
+    21300448: CookiePieces_224
+    21300450: CookiePieces_225
+    21300452: CookiePieces_226
+    21300454: CookiePieces_227
+    21300456: CookiePieces_228
+    21300458: CookiePieces_229
+    21300460: CookiePieces_230
+    21300462: CookiePieces_231
+    21300464: CookiePieces_232
+    21300466: CookiePieces_233
+    21300468: CookiePieces_234
+    21300470: CookiePieces_235
+    21300472: CookiePieces_236
+    21300474: CookiePieces_237
+    21300476: CookiePieces_238
+    21300478: CookiePieces_239
+    21300480: CookiePieces_240
+    21300482: CookiePieces_241
+    21300484: CookiePieces_16
+    21300486: CookiePieces_243
+    21300488: CookiePieces_244
+    21300490: CookiePieces_15
+    21300492: CookiePieces_246
+    21300494: CookiePieces_247
+    21300496: CookiePieces_13
+    21300498: CookiePieces_249
+    21300500: CookiePieces_250
+    21300502: CookiePieces_12
+    21300504: CookiePieces_252
+    21300506: CookiePieces_253
+    21300508: CookiePieces_11
+    21300510: CookiePieces_255
+    21300512: CookiePieces_10
+    21300514: CookiePieces_257
+    21300516: CookiePieces_258
+    21300518: CookiePieces_259
+    21300520: CookiePieces_260
+    21300522: CookiePieces_261
+    21300524: CookiePieces_262
+    21300526: CookiePieces_263
+    21300528: CookiePieces_264
+    21300530: CookiePieces_265
+    21300532: CookiePieces_266
+    21300534: CookiePieces_267
+    21300536: CookiePieces_268
+    21300538: CookiePieces_269
+    21300540: CookiePieces_270
+    21300542: CookiePieces_9
+    21300544: CookiePieces_272
+    21300546: CookiePieces_8
+    21300548: CookiePieces_274
+    21300550: CookiePieces_7
+    21300552: CookiePieces_276
+    21300554: CookiePieces_6
+    21300556: CookiePieces_278
+    21300558: CookiePieces_5
+    21300560: CookiePieces_280
+    21300562: CookiePieces_4
+    21300564: CookiePieces_282
+    21300566: CookiePieces_3
+    21300568: CookiePieces_284
+    21300570: CookiePieces_2
+    21300572: CookiePieces_1
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CookiePieces_29
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 4102
+        width: 58
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07690f767776fb44cb8e512a28cafc4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_31
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 4102
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f0142c3f824ac4aac1b38e0ac0e882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_30
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 4102
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d77a031d0b0794fa2940098830561e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_33
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 4116
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c482df803110d4888b7667f16a0bc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_32
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 4102
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a473511b68e7b24ea36d10d105179d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_26
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 3295
+        width: 79
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6eb3969f0558b409cb9e5c4d72ca05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_25
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 3295
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad615164c50e504d94d4108ad92394f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_24
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 3295
+        width: 89
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383345bf54175634dad0fe51a7860423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_23
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 3295
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b65900dbfab3743b5eed25d21e48d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_28
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3302
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6cc377011be4a48bcc1d59643b1e95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_27
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3295
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996f3d78066cc10488410ef542281da1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_22
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 2494
+        width: 93
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdfe5e7e3f05964a98b7f2774e1e62f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_21
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 2494
+        width: 106
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2490535779dc64287306855121b93f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_20
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2494
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b0f47eda9ab7b49b7db85a41bb0931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_19
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 2494
+        width: 110
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385bc23a6e7a1b94a873299278633aa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_18
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 2490
+        width: 127
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41dcc6ac2004d84783b098550329ffd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_17
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 2489
+        width: 124
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5def551c6f5eae34b86d5e7d49f5b500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1690
+        width: 152
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50631ad8276d2d342b1bbb4a55573749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_15
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1696
+        width: 129
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25ba31b7e4812b4ea972ad7ffe84635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_13
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1696
+        width: 131
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e50ab3311a6ab46963f3710e7f2c8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_12
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1690
+        width: 136
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e84f8a2d020a9445b7d25fcc76a93b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_11
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1690
+        width: 150
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4e9b6b00cdd33408c2f24da176c7b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_10
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1690
+        width: 152
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6f8e6235338eb4194ff4e033dd16bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 891
+        width: 189
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed91885a080bf064a9b1d9df08eb7b74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_8
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 891
+        width: 192
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a3a0c5ccb292a4792c48a6b90d7a92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_7
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 891
+        width: 192
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912f75ef6edc404439fbeaffcb05e63d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_6
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 891
+        width: 193
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666b9b5d111059f4da78e186289d6630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_5
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 891
+        width: 192
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a8a4c1570ef54459f41caf4e8cf382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_4
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 891
+        width: 190
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247d31b3bd892704492e217ee7b8da94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 89
+        width: 187
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f738e6b3833bb241bc77efcf14bd630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 89
+        width: 195
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79a0143b5402a0478f2bd535a2884a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_1
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 95
+        width: 197
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86fa5f7291c2864a9795ebdf0bdd0e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CookiePieces_110
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 4073
+        width: 223
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2eef080486967439333fd4225b52f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a1e5f0ad5de59f541ac55df9886ff6a6
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

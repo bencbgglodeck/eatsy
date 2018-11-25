@@ -15,12 +15,11 @@ public class mini_Cookie_Button : MonoBehaviour {
     {
         if (time.ready == false)
         {
+            //Debug.Log("testloss");
             SceneManager.LoadScene("LoseScene");
-
         }
         else if (time.ready == true)
         {
-            Debug.Log("memes");
             if (effectReady == true)
             {
                 Instantiate(cookieEffect, Camera.main.ScreenToWorldPoint(Input.mousePosition), Quaternion.identity);

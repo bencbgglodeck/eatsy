@@ -10,10 +10,26 @@ public class mini_Cookie_Progress : MonoBehaviour {
     public GameObject timerDisplay;
 
     public float timeLeft = 15.0f;
-	
-	void Update ()
-    {
+    private float timeMax = 15;
+    public GameObject Cookie;
+    private Sprite cookieSprite;
+    public Sprite[] cookieSprites;
+    private int timeCount = 0;
+    public AudioClip eatClip;
 
+    void Update ()
+    {
+        float y = timeMax - timeLeft;
+        int i = (int)y;
+        Cookie.GetComponent<SpriteRenderer>().sprite = cookieSprites[i];
+        if (i > timeCount)
+        {
+            gameObject.GetComponent<AudioSource>().clip = eatClip;
+            gameObject.GetComponent<AudioSource>().pitch = (Random.Range(0.8f, 1.2f));
+            gameObject.GetComponent<AudioSource>().Play();
+            timeCount = i;
+        }
+         
         if (timeLeft < 0.01f)
         {
             MasterScript.currencyCount += 25;
