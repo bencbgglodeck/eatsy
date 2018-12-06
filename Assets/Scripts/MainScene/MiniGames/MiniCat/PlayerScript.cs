@@ -66,6 +66,10 @@ public class PlayerScript : MonoBehaviour
         {
             MasterScript.currencyCount = 15 * MasterScript.catLives;
             MasterScript.catLives = 3;
+            if (MasterScript.storyLevel == 1)
+            {
+                MasterScript.storyLevel++;
+            }
             SceneManager.LoadScene("VictoryScene");
         }
     }

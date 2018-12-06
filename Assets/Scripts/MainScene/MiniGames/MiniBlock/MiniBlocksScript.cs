@@ -65,6 +65,10 @@ public class MiniBlocksScript : MonoBehaviour
         {
             MasterScript.blockCounter = 0;
             MasterScript.currencyCount += 25;
+            if(MasterScript.storyLevel == 0)
+            {
+                MasterScript.storyLevel++;
+            }
             SceneManager.LoadScene("VictoryScene");
         }
     }
