@@ -6,19 +6,18 @@ using UnityEngine.SceneManagement;
 public class mini_Cookie_Button : MonoBehaviour {
 
     public mini_Cookie_Progress prog;
-    public mini_Cookie_Timer time;
     public GameObject cookieEffect;
     public bool effectReady = true;
 
 
     public void OnMouseDrag()
     {
-        if (time.ready == false)
+        if (mini_Cookie_Timer.ready == false)
         {
             //Debug.Log("testloss");
             SceneManager.LoadScene("LoseScene");
         }
-        else if (time.ready == true)
+        else if (mini_Cookie_Timer.ready == true)
         {
             if (effectReady == true)
             {
@@ -28,7 +27,7 @@ public class mini_Cookie_Button : MonoBehaviour {
             prog.Countdown();
         }
     }
-
+ 
     public void OnMouseUpAsButton()
     {
         effectReady = true;

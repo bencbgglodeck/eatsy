@@ -5,11 +5,13 @@ using UnityEngine;
 public class mini_Cookie_Timer : MonoBehaviour {
 
     public float colorTimer;
-    public bool ready;
+    public static bool ready;
 
     public GameObject colorBar;
     private SpriteRenderer spriteR;
     public Sprite[] spriteList;
+    public GameObject speakEffect;
+    public Vector3 speakLocation;
 
     void Start () {
 
@@ -21,6 +23,7 @@ public class mini_Cookie_Timer : MonoBehaviour {
 
     void SetActive()
     {
+        StartCoroutine(SpawnerEnable(0.1f));
         ready = true;
         spriteR.sprite = spriteList[1];
         colorTimer = Random.Range(1f, 4f);
@@ -29,6 +32,7 @@ public class mini_Cookie_Timer : MonoBehaviour {
 
     void SetInactive()
     {
+        StartCoroutine(SpawnerDisable());
         ready = false;
         colorTimer = Random.Range(1f, 4f);
         StartCoroutine(Cooldown(colorTimer));
@@ -50,12 +54,23 @@ public class mini_Cookie_Timer : MonoBehaviour {
 
         Debug.Log("time frame over");
         spriteR.sprite = spriteList[0];
-
         yield return new WaitForSeconds(0.3f);
 
         SetInactive();
         yield return null;
     }
 
+    private IEnumerator SpawnerEnable(float timer)
+    {
+        yield return new WaitForSeconds(timer);
+        Instantiate(speakEffect, speakLocation, Quaternion.identity);
 
+        yield return null;
+    }
+
+    private IEnumerator SpawnerDisable()
+    {
+        Destroy(GameObject.FindWithTag("Destroy"));
+        yield return null;
+    }
 }

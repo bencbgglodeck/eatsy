@@ -1,18 +1,12 @@
 fileFormatVersion: 2
-guid: 236a79b3b945acc4fa8761f88f1f632b
+guid: b4f9d1fdd2462444d99f6e230350a580
 TextureImporter:
   fileIDToRecycleName:
-    21300000: scribbles_0
-    21300002: scribbles_1
-    21300004: scribbles_2
-    21300006: scribbles_3
-    21300008: scribbles_4
-    21300010: scribbles_5
-    21300012: scribbles_6
-    21300014: scribbles_7
-    21300016: scribbles_8
-    21300018: scribbles_9
-    21300020: scribbles_10
+    21300000: serie 1_0
+    21300002: serie 1_1
+    21300004: serie 1_2
+    21300006: serie 1_3
+    21300008: serie 1_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -117,13 +111,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: scribbles_0
+      name: serie 1_0
       rect:
         serializedVersion: 2
-        x: 168
-        y: 1633
-        width: 376
-        height: 172
+        x: 16
+        y: 1397
+        width: 530
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,19 +125,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56b7897cc98b5044ba30de2512369915
+      spriteID: c0f201f3bc073ac41835d0257a532a2b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scribbles_1
+      name: serie 1_1
       rect:
         serializedVersion: 2
-        x: 630
-        y: 1646
-        width: 425
-        height: 150
+        x: 556
+        y: 1419
+        width: 515
+        height: 491
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,19 +145,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2597551dc4cf9d489f6b949cca2b2ef
+      spriteID: 9d7c55ea78da44649be824a05200188e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scribbles_2
+      name: serie 1_2
       rect:
         serializedVersion: 2
-        x: 367
-        y: 1481
-        width: 366
-        height: 120
+        x: 23
+        y: 857
+        width: 1057
+        height: 544
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,19 +165,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9553d688feb538458af75a00cb8cd62
+      spriteID: c69644b0209a8a14290b2b34ef5873b7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scribbles_3
+      name: serie 1_3
       rect:
         serializedVersion: 2
-        x: 595
-        y: 1213
-        width: 453
-        height: 177
+        x: 21
+        y: 25
+        width: 513
+        height: 823
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,19 +185,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebeb2c84b14e7ac4188df4f3d7755442
+      spriteID: 764ace4fe24d5ad4ab8fd4018cc85943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: scribbles_4
+      name: serie 1_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1218
-        width: 391
-        height: 155
+        x: 568
+        y: 25
+        width: 488
+        height: 835
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,127 +205,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f982c927f4f8c24288be3a0808d8f09
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scribbles_5
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 945
-        width: 600
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 044fe2483a2806c47be6d94c73ae7bbe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scribbles_6
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 800
-        width: 888
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06e50e4fd814ffd409d9365ce4221f52
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scribbles_7
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 663
-        width: 492
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0604109ce2d381d43903f2d02487b42a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scribbles_8
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 444
-        width: 696
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b14282d638fb48f489d33bd83627f437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scribbles_9
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 225
-        width: 626
-        height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 787c6528003d8c64ca0de01fc8cb8c34
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scribbles_10
-      rect:
-        serializedVersion: 2
-        x: 821
-        y: 33
-        width: 251
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a54832f3472151140b7d29460354f417
+      spriteID: 8b4e2c981f29fc94f81406ccba997ebb
       vertices: []
       indices: 
       edges: []
@@ -339,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5402f8c5379a8dd469772c13a4fdbe6e
+    spriteID: 994b6b90441460a4eab8aca571178b25
     vertices: []
     indices: 
     edges: []

@@ -7,17 +7,19 @@ public class StoryMode : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        if(MasterScript.storyLevel == 0 && MasterScript.energyCount > 0)
-        {
-            MasterScript.energyCount--;
-            SceneManager.LoadScene("MiniBlocks");
-        }
+        SceneManager.LoadScene("ComicTest");
+        //if(MasterScript.storyLevel == 0 && MasterScript.energyCount > 0)
+        //{
+        //    MasterScript.energyCount--;
+        //    SceneManager.LoadScene("ComicTest");
+        //    SceneManager.LoadScene("MiniBlocks");
+        //}
 
-        else if(MasterScript.storyLevel == 1 && MasterScript.energyCount > 0)
-        {
-            MasterScript.energyCount--;
-            SceneManager.LoadScene("MiniCat");
-        }
+        //else if(MasterScript.storyLevel == 1 && MasterScript.energyCount > 0)
+        //{
+        //    MasterScript.energyCount--;
+        //    SceneManager.LoadScene("MiniCat");
+        //}
 
     }
 }

@@ -13,6 +13,7 @@ public class MasterScript : MonoBehaviour
     public static int[] shopItemList = new int[4];
     public static Color playerColor = Color.white;
     public static bool musicController = true;
+    public static int comicCount = 0;
 
     private void Start()
     {

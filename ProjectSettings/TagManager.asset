@@ -10,6 +10,7 @@ TagManager:
   - InterfaceBarDown
   - Master
   - Actor
+  - Destroy
   layers:
   - Default
   - TransparentFX

@@ -15,11 +15,14 @@ public class PlayerScript : MonoBehaviour
     private Animator anim;
     private bool landAllowed;
     public GameObject dustEffect;
+    public AudioClip driveClip;
+    public AudioClip landClip;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        gameObject.GetComponent<AudioSource>().clip = driveClip;
     }
     void Update ()
     {
@@ -34,14 +37,20 @@ public class PlayerScript : MonoBehaviour
 
         if (isGrounded == true)
         {
+            if (gameObject.GetComponent<AudioSource>().isPlaying == false)
+            {
+                gameObject.GetComponent<AudioSource>().Play();
+            }
             if (landAllowed == true)
             {
                 Instantiate(dustEffect, groundCheck.position, Quaternion.identity);
+                gameObject.GetComponent<AudioSource>().PlayOneShot(landClip);
                 landAllowed = false;
             }
         }
         else
         {
+            gameObject.GetComponent<AudioSource>().Pause();
             landAllowed = true;
         }
     }
